@@ -12,6 +12,11 @@ Simple HTML5 templates on this repository, powered by Github pages
 ## Second draft -
 HTML5 templates ported over to a flask `templates` folder with routes defined from the first draft
 
+# Requirements
+Python/Flask:
+* Flask
+* Flask-sqlalchemy
+
 # Technology
 ## Air filtration tech
 [Interior Air Quality](https://www.scentechnologies.com/en/filtering-technology)
