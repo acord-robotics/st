@@ -9,6 +9,8 @@ Scent Technologies Australia - Website powered by Flask, built by [Signal-k](htt
 ## First draft - 3/3/2021
 Simple HTML5 templates on this repository, powered by Github pages
 
+As SK is having domain troubles, I've [forked this repo to my personal account](https://github.com/gizmotronn/st) with gh-pages enabled: https://gizmotronn.github.io/st/
+
 ## Second draft -
 HTML5 templates ported over to a flask `templates` folder with routes defined from the first draft
 
