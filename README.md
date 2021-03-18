@@ -19,6 +19,17 @@ Python/Flask:
 * Flask
 * Flask-sqlalchemy
 
+## Starship.rs
+```bash
+curl -fsSL https://starship.rs/install.sh | bash
+```
+
+Install on Github Codespaces (Terminal) using zsh:
+`eval "$(starship init zsh)"`
+
+Or
+`alias [alias-name]='[command]'`
+
 # Technology
 ## Air filtration tech
 [Interior Air Quality](https://www.scentechnologies.com/en/filtering-technology)
