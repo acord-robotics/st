@@ -30,6 +30,29 @@ Install on Github Codespaces (Terminal) using zsh:
 Or
 `alias [alias-name]='[command]'`
 
+### Github Actions
+```py
+from setuptools import find_packages
+from setuptools import setup
+
+setup(
+    name='flask_app',
+    description="Flask app for test CI",
+    author='ozada',
+    url='',
+    packages=find_packages('src'),
+    package_dir={
+        '': 'src'},
+    include_package_data=True,
+    keywords=[
+        'web_app', 'test', 'flask'
+    ],
+    entry_points={
+        'console_scripts': [
+            'web_server = app:main']},
+)
+```
+
 # Technology
 ## Air filtration tech
 [Interior Air Quality](https://www.scentechnologies.com/en/filtering-technology)
